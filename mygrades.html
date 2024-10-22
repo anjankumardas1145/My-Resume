@@ -1,0 +1,121 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Grades</title>
+    <style>
+      /* Styling the body */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f3f4f6; /* Light gray background */
+        color: #333;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      /* Styling the paragraph */
+      p {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 20px;
+      }
+
+      /* Styling the table */
+      table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        background-color: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Styling the table header */
+      thead {
+        background-color: #4caf50; /* Green background for header */
+        color: white;
+      }
+
+      th {
+        padding: 15px;
+        font-size: 18px;
+        text-align: center;
+      }
+
+      /* Styling the table rows and cells */
+      td {
+        padding: 15px;
+        text-align: center;
+        font-size: 16px;
+        color: #444;
+        border-bottom: 1px solid #ddd;
+        transition: background-color 0.3s;
+      }
+
+      /* Alternating row colors */
+      tbody tr:nth-child(odd) {
+        background-color: #f9f9f9;
+      }
+
+      tbody tr:nth-child(even) {
+        background-color: #e0f7fa;
+      }
+
+      /* Styling the last row */
+      tbody tr:last-child td {
+        border-bottom: none;
+      }
+
+      /* Adding hover effect for rows */
+      tbody tr:hover {
+        background-color: #c8e6c9; /* Light green on hover */
+        color: #2e7d32; /* Darker green text on hover */
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <p>These are my grades that I received while studying:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Years</th>
+          <th>Standard</th>
+          <th>College</th>
+          <th>Grades</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2008-2018</td>
+          <td>Tenth Standard</td>
+          <td>Govt School</td>
+          <td>87.83</td>
+        </tr>
+        <tr>
+          <td>2018-2020</td>
+          <td>Intermediate</td>
+          <td>FM</td>
+          <td>68.33</td>
+        </tr>
+        <tr>
+          <td>2020-2023</td>
+          <td>Graduation</td>
+          <td>MPC</td>
+          <td>78.94</td>
+        </tr>
+        <tr>
+          <td>2023-2025</td>
+          <td>Masters</td>
+          <td>USBM</td>
+          <td>77.88</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
